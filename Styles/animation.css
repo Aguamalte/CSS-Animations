@@ -1,0 +1,60 @@
+h1
+{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+    animation-name: animate__bounce;
+    animation-duration: 2s;
+    color: antiquewhite;
+}
+header
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0, 0, 0);
+}
+.Pirate
+{
+    animation: rotation  2s linear;
+}
+@keyframes rotation 
+{
+    from {
+      transform: rotate(0deg);
+    }
+
+    to {
+      transform: rotate(360deg);
+    }
+  }
+.transition
+{
+  width: 100px;
+  height: 100px;
+  background: rgb(0, 0, 0);
+  transition: width 4s;
+}
+.transition:hover {
+  width: 100%;
+}
+div
+{
+    display: flex;
+    justify-content:center;
+    align-items: center;   
+}
+h2
+{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: antiquewhite;
+  font-size: 60px;
+}
+h2:hover
+{
+  visibility:visible;
+}
+audio
+{
+  justify-content: center;
+  display: flex;
+}
