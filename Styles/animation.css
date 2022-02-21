@@ -29,12 +29,13 @@ header
   }
 .transition
 {
-  width: 100px;
-  height: 100px;
-  background: rgb(0, 0, 0);
-  transition: width 4s;
+    width: 100px;
+    height: 100px;
+    background: rgb(0, 0, 0);
+    transition: width 4s;
 }
-.transition:hover {
+.transition:hover 
+{
   width: 100%;
 }
 div
@@ -45,16 +46,16 @@ div
 }
 h2
 {
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: antiquewhite;
-  font-size: 60px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: antiquewhite;
+    font-size: 60px;
 }
 h2:hover
 {
-  visibility:visible;
+    visibility:visible;
 }
 audio
 {
-  justify-content: center;
-  display: flex;
+    justify-content: center;
+    display: flex;
 }
